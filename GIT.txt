@@ -1,0 +1,36 @@
+Source code managenet tools\version control tools
+
+SVN
+Centralized repository management
+Disadvantage: if any network they can't able to work on centralized repository.
+
+git				
+Distributed repository management
+--most powerfull tool 			
+--open source
+--lot of features
+
+git inti--to initialize repository
+git status
+by default branch name master
+
+
+Three phases in Git
+1) Workspace area:if any file created that file stored in workspace. File are moved to staging area
+2) staging or index area:  in staging area we can find who created the file and shacode
+3) Local repository
+
+Creared file in workspace
+file.txt
+
+How to find where the created files are in( workspace(Red), Staging\index area(green),
+
+To move files from workspace to staging or index area cmd 
+git add file.txt
+
+To move file from staging\index area to Local repo using command 
+need to configure user name and email address
+git config --global user.name "naresh"
+git config --global user.email "manam.nareshbabu@gmail.com"
+git commit -m "commited by naresh"
+
